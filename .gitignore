@@ -46,7 +46,8 @@ target/
 *.o
 *.obj
 
-# ---- 本机网络排查脚本（仅用于绕过本机 hosts 劫持，不属于项目内容）----
+# ---- 本机网络排查脚本 / 证书包（仅用于本机网络环境，不属于项目内容）----
 fix-hosts-github.ps1
 gh-forward.js
 probe-github.js
+combined-ca-bundle.crt
